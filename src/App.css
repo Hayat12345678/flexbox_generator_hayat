@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(252, 253, 253);
+}
+
+.App {
+  border: none;
+}
+
+fieldset {
+  border: none;
+  text-align: center;
+  color: #18689e;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(0, 0, 255, 0.541);
+  text-shadow: 2px 2px 4px rgb(177, 170, 170);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.color-container {
+  display: flex;
+  width: 55vw;
+  height: 50vh;
+  border: 1px solid;
+  margin-left: 20%;
+  box-shadow: 4px 4px 6px #9b9b95;
+}
+
+.red {
+  background-color: #fe595f;
+  min-height: 140px;
+  min-width: 120px;
+
+}
+
+.yellow {
+  background-color: #ffc83b;
+  min-height: 140px;
+  min-width: 120px;
+
+}
+
+.green {
+  background-color: #8ac72a;
+  min-height: 140px;
+  min-width: 120px;
+
+}
+
+.blue {
+  background-color: #2081c3;
+  min-height: 140px;
+  min-width: 120px;
+
+}
+
+.purple {
+  background-color: #694d92;
+  min-height: 140px;
+  min-width: 120px;
+
+}
+
+.historyList {
+  list-style: none;
+  text-align: left;
+}
+
+.historyList li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
